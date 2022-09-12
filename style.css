@@ -277,13 +277,7 @@ h1 span {
 
 }
 
-#designflex {
-    width: 80%;
-}
-
-
 #designtext {
-    width: 45%;
     font-size: 4rem;
     font-weight: 700;
 }
@@ -299,7 +293,7 @@ h1 span {
 
 .designbox {
     width: 25rem;
-    height: 32rem;
+    height: 30rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -344,7 +338,6 @@ h1 span {
     background-color: white;
     border-radius: 2rem;
     padding: 4rem 3rem;
-    width: 80%;
     margin: 0 auto;
     margin-bottom: 5rem;
 }
