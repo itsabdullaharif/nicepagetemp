@@ -68,11 +68,10 @@ h6 {
 .landpgcont {
     display: flex;
     justify-content: center;
+    flex-direction: row;
     align-items: center;
     font-size: 2.5rem;
     column-gap: 3rem;
-    flex-wrap: wrap;
-
     background-color: white;
     font-family: 'Open Sans', sans-serif;
     padding: 30px 50px;
@@ -141,10 +140,6 @@ h1 span {
 
 #workcont h1 {
     text-align: center;
-}
-
-.landpgcont-text {
-    width: 30%;
 }
 
 .workbox h2 {
