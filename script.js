@@ -1,11 +1,11 @@
-function navclose() {
-    const navbar = document.getElementById('navbar');
-    navbar.style.display = 'none';
+function navtoggle(id) {
+    let ID = document.getElementById(id);
+    if (ID.style.display == 'none') {
+        ID.style.display = 'flex';
+    }
+    else { ID.style.display = 'none' }
 }
-function navview() {
-    const navbar = document.getElementById('navbar');
-    navbar.style.display = 'flex';
-}
+
 function overview() {
     const overview = document.querySelector('.overview');
     const founder = document.querySelector('.founder');

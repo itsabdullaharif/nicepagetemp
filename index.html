@@ -15,11 +15,11 @@
 
 <body>
     <div id="navbar">
-        <i class="fa-solid fa-x" onclick="navclose()" id="x"></i>
+        <i class="fa-solid fa-x" onclick="navtoggle('navbar')" id="x"></i>
         <li>About</li>
     </div>
     <div id="parent">
-        <div id="navbar-icon" onclick="navview()"><img src="/img/menu.png" id="navbaricon"></div>
+        <div id="navbar-icon" onclick="navtoggle('navbar')"><img src="/img/menu.png" id="navbaricon"></div>
     </div>
     <!-- navigation -->
 
@@ -28,7 +28,7 @@
     <div class="landpgcont">
         <div class="landpgcont-text">
             <!--landing page text container -->
-            <h3>WHAT WE DO</h3>
+            <h6>WHAT WE DO</h6>
             <h1>360° business <br> consulting
                 <br> <span> Can you afford us?</span>
             </h1>
@@ -54,10 +54,10 @@
     <!-- Landing page container ends here -->
     <!-- Our work page -->
     <div id="workcont">
-        <h3>ABOUT OUR WORK</h3>
-        <h1>We run all kinds of IT services that vow your success</h1>
+        <h6>ABOUT OUR WORK</h6>
+        <h1 id="workboxhdl">We run all kinds of IT services that vow your success</h1>
         <div id="workboxcont">
-            <div class="workbox">
+            <div class="workbox ">
                 <h2>Development</h2>
                 <span>
                     <svg class="developmentsvg" viewBox="0 0 54 54" x="0px" y="0px" id="svg-a56e"
@@ -173,19 +173,19 @@
                 rhoncus laoreet purus quis elementum. Phasellus sed efficitur dolor, et ultricies sapien.</p>
         </div>
         <div class="workintrobox">
-            <h2>01.
-            </h2>
+            <h6>01.
+            </h6>
             <h1>Web Design</h1>
             <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
             </p>
         </div>
         <div class="workintrobox color">
-            <h2>02. </h2>
+            <h6>02. </h6>
             <h1>Print</h1>
             <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
         </div>
         <div class="workintrobox">
-            <h2>03.</h2>
+            <h6>03.</h6>
             <h1>Illustration</h1>
             <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
         </div>
@@ -203,7 +203,7 @@
                 <div class="designbox">
                     <h1>Construction innovation</h1>
                 </div>
-                <div class="designbox">
+                <div class="designbox dsgnspara">
                     <p>The result of our company branding process is a comprehensive brand guideline that can be used to
                         design
                         a marketing website and other design assets like brand illustrations that reflect the new brand.
@@ -243,29 +243,27 @@
     <!-- about us container -->
     <div id="aboutuscont">
         <div class="aboutustext">
-            <h3>ABOUT US</h3>
+            <h6>ABOUT US</h6>
             <h1 id="aboutushdln">IT Solution Strategy Development For Your Bussiness</h1>
             <p>Article evident arrived express highest men did boy. Mistress sensible entirely am so. Quick can manor
                 smart money hopes worth too. Comfort produce husband boy her had hearing. Law others theirs passed but
                 wishes. You day real less till dear read.</p>
-            <ul>
-                <li>
-                    <div class="list-item">
-                        <div xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
-                            xml:space="preserve" class="u-svg-content">►</div>
-                    </div>Support via E-mail and Phone
-                </li>
-                <li>
-                    <div class="list-item">
-                        <div xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
-                            xml:space="preserve" class="u-svg-content">►</div>
-                    </div>Multi-Language Support
-                </li>
-                <button type="button" id="strgbtn">Read More</button>
-            </ul>
+            <div class="list-item">
+                <span> ► </span>
+                Support via E-mail and Phone
+            </div>
+
+            <div class="list-item">
+                <span> ► </span>
+                Multi-Language Support
+            </div>
+            <button type="button" id="strgbtn">Read More</button>
         </div>
+
         <div class="aboutusimage"><img src="/img/aboutusimage.jpeg" id="aboutusimage"></div>
     </div>
+    </div>
+
 
 
     <!-- about us container -->
@@ -383,17 +381,22 @@
     <!-- team box container ends -->
     <!-- opinion container -->
     <div id="opinioncont">
+
         <h1>What People Say</h1>
         <div class="opinionflex">
 
             <div class="opinionbox">
-                Article evident arrived express highest men did boy. Mistress sensible entirely am so. Quick can manor
+                Article evident arrived express highest men did boy. Mistress sensible entirely am so. Quick can
+                manor
                 smart
-                money hopes worth too. Comfort produce husband boy her had hearing. Law others theirs passed but wishes.
+                money hopes worth too. Comfort produce husband boy her had hearing. Law others theirs passed but
+                wishes.
                 You
-                day real less till dear read. Considered use dispatched melancholy sympathize discretion led. Oh feel if
+                day real less till dear read. Considered use dispatched melancholy sympathize discretion led. Oh
+                feel if
                 up
-                to till like. He an thing rapid these after going drawn or. Timed she his law the spoil round defer. In
+                to till like. He an thing rapid these after going drawn or. Timed she his law the spoil round defer.
+                In
                 surprise concerns informed betrayed he learning is ye. Ignorant formerly so ye blessing.
             </div>
             <div class="comabox">
@@ -412,6 +415,7 @@
                     </svg></div>
             </div>
         </div>
+
     </div>
 
 
@@ -423,7 +427,7 @@
             <h1>Contact Us</h1>
             <h2>New York, 4140 Parker Rd. Allentown,
                 New Mexico 31134</h2>
-            <h1>+1 (555) 656 77 89</h1>
+            <h6>+1 (555) 656 77 89</h6>
             <h1>info@sample.com</h1>
         </div>
 
