@@ -9,6 +9,17 @@ body {
 
 }
 
+.flex-row-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+
+}
+
+
+
 h6 {
     color: #2ccc7e;
     font-size: 22px;
@@ -74,7 +85,7 @@ h6 {
     column-gap: 3rem;
     background-color: white;
     font-family: 'Open Sans', sans-serif;
-    padding: 30px 50px;
+    padding: 50px 130px;
 }
 
 .landpgcont h3 {
@@ -100,7 +111,8 @@ h1 span {
 
 .landpgcont-text {
     width: 100%;
-    padding-right: 3rem;
+
+
 }
 
 .landpgcont-text p {
@@ -113,7 +125,7 @@ h1 span {
 
 
 #img1 {
-    width: 38%;
+    width: 100%;
     height: 55rem;
 }
 
@@ -145,7 +157,7 @@ h1 span {
 .workbox h2 {
     color: black !important;
     margin-bottom: -1.5rem;
-    text-align: left;
+
 }
 
 .marketing h2 {
@@ -163,20 +175,19 @@ h1 span {
 
 #workboxhdl {
     font-size: 4rem;
-    width: 40%;
+
 }
 
 
 .workbox {
-    width: 35rem;
-    height: 28rem;
+    width: 25%;
     margin: 1rem 1rem;
     background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     font-size: 1.7rem;
+    padding: 10rem 2rem;
 }
 
 .workbox p {
@@ -189,14 +200,17 @@ h1 span {
     fill: white;
 }
 
-.workbox span {
+/* .workbox span {
     display: flex;
     text-align: right;
     margin: 2rem;
-}
+} */
+
 
 #workboxcont {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
     flex-wrap: wrap;
     margin-bottom: 10rem;
 }
@@ -231,7 +245,7 @@ h1 span {
     background-color: #f2f2f2;
 }
 
-.workintrobox h2:first-child {
+.workintrobox h6:first-child {
     color: #2ccc7e;
     margin-bottom: -2rem;
 
@@ -378,7 +392,7 @@ h1 span {
 
 #inputbox {
     display: flex;
-    width: 120%;
+    width: 170%;
     justify-content: center;
     align-items: center;
     height: 5em;
